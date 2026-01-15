@@ -1,0 +1,32 @@
+Avec les domaines généraux (Informatique, physique, ...):
+Variance expliquée : Axe 1 = 38.68%, Axe 2 = 33.17%
+
+--- MOYENNES PAR CLUSTER (Pour interprétation) ---
+               Degré  Clustering  Centralité Intermédiarité  Excentricité
+Cluster
+0           1.243427    0.008486               4.073303e-07      5.000000
+1        2715.211538    0.002709               1.075311e-02      3.961538
+2          13.517106    0.098631               1.959912e-05      4.247510
+
+--- TEST D'INDÉPENDANCE (CHI-2) ---
+Statistique Chi2 : 714.77
+p-value : 9.2682e-142
+CONCLUSION : Rejet de H0. Il y a une dépendance significative.
+-> Les profils structurels (Clusters) sont liés aux domaines de recherche.
+Locaux:
+Variance expliquée : Axe 1 = 42.40%, Axe 2 = 25.26%
+
+Avec les domaines spécifiques (Informatique quantique, ML, ...):
+
+--- MOYENNES PAR CLUSTER (Pour interprétation) ---
+               Degré  Clustering  Centralité Intermédiarité  Excentricité
+Cluster
+0           9.992091    0.033833                   0.000005           NaN
+1           9.887022    0.034251                   0.000006      4.784832
+2        5785.000000    0.001831                   0.009941      3.958333
+
+--- TEST D'INDÉPENDANCE (CHI-2) ---
+Statistique Chi2 : 38.05
+p-value : 4.6733e-01
+CONCLUSION : On ne peut pas rejeter H0.
+-> Les profils structurels sont indépendants des domaines (Structure universelle).
